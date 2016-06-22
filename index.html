@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href ="navbar.css" rel = "stylesheet" type = "text/css" media = "all"/>
+<link href = "slide.css" rel = "stylesheet">
+<title>Cooper Union Ideation Lab</title>
+<meta name = "viewport" content = "width=device-width, initial-scale=1">
+<style>
+.mySlides {display:none;}
+</style>
+</head>
+<body>
+
+
+
+<div id = "header">
+	<header>
+		<h1>Cooper Union Ideation Lab</h1>
+		<pre> Event Location: Cooper Union for the Advancement of Science and Art
+		Event Date: (10/8-10/10)
+		</pre>
+	</header>
+	<nav class = "main">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About the Event</a></li>
+			<li><a href="involve.html">How to Get Involved</a></li>
+			<li><a href="previous.html">Previous Events</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+</div>
+
+
+<div class="slide-section slide-content" style="max-width:device-width">
+	<img class="mySlides" src="cooperunion.jpg" style="width:100%">
+	<img class="mySlides" src="bothcooper.jpg" style="width:100%">
+</div>
+
+<!--Source of images: http://www.newyorker.com/wp-content/uploads/2015/04/Mead-The-Cooper-Union-Tragedy-1200.jpg, http://www.esto.com/media/files/f1e99651e9c217a2a3c96fa0c25f0fe5.jpg?w=1280&h=840&c=0-->
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2500); // Change image every 2.5 seconds
+}
+</script>
+
+<center>
+<h1>About the Archimedes Project</h1>
+<p>A lack of clean water and adequate sanitation infrastructure is the largest problem that humanity faces today. 
+These deficiencies result in the loss of hundreds of billions of dollars of development and the lives of millions 
+of people every year due to diarrhea.</p>
+
+<p>Archimedes Project works by leveraging existing technology, ideas from across sectors and experienced
+partners to solve this large and difficult problem. In 2014, we launched our first enterprise ­ a clean water
+social enterprise in Haiti. We act as a co­founder, working closely with a social entrepreneur to design
+and launch a scalable enterprise that creates jobs while delivering affordable products or services across
+an entire country or region.</p>
+
+<h2>Mission</h2>
+<p>The Archimedes Project's mission is to increase access to clean water and sanitation
+
+around the world by working with locally competent and committed entrepreneurs to design and
+
+launch lean, scalable and financially sustainable clean water & sanitation enterprises that leverage
+
+existing technology, knowledge and partners.</p>
+<p>
+The Archimedes Project believes that world has the technology, ideas and expertise
+
+necessary to get water and sanitation to the bottom billion and that these resources must
+
+be used as leverage to solve this problem.
+</p>
+<p>
+We are committed to bringing together groups of dreamers, thinkers, makers and doers
+
+from across sectors to design and launch scalable and financially sustainable clean water
+
+social enterprises.
+</p>
+<p></p>
+</center>
+
+<footer>
+Partner Organizations: create@cooper, <!sponsors, university center/department> <br>
+<a href = "http://www.cooper.edu" target = "_blank">
+<img src="cooperlogo.png" title="Go to the Cooper Website" style="width:82px;height:103px;">
+</a>
+<img src="archcoop.png" title="Cooper + Archimedes Project" style="width:103px;height:103px;">
+</footer>
+
+</body>
+</html>
