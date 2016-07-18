@@ -2,7 +2,8 @@
 <html>
 <head>
 <link href ="navbar.css" rel = "stylesheet" type = "text/css" media = "all"/>
-<title></title>
+<title>Contact Ideation Lab</title>
+<link rel = "icon" href = "archcoop.png">
 </head>
 <body>
 
@@ -31,7 +32,28 @@
 <h1>How to Contact Us</h1>
 <p>
 
-Email: park@cooper.edu
+<form action="mailto:tang@cooper.edu">
+<p>
+<i>Please select the reason for contacting us</i>
+</p>
+<select name="product">
+<option value="widget1">Participating</option>
+<option value="widget2">Questions</option>
+<option value="widget3">Volunteering</option>
+</select>
+<p>
+<i>Please enter the text of your message in the field that follows.</i>
+</p>
+<textarea 
+  name="body" 
+  rows="10" 
+  cols="60"></textarea>
+
+<p>
+<input type="submit" name="send" value="Send Your Message"/>
+<input type="submit" name="cancel" value="Cancel - Never Mind"/>
+</p>
+</form>
 
 </p>
 </center>
