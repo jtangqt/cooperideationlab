@@ -31,7 +31,11 @@ h3{
 }
 
 .img1{
+<<<<<<< HEAD
 	background-image: url('img/background.jpg');
+=======
+	background-image: url('../img/background.jpg');
+>>>>>>> a2248952b95989accef1c1b8d90344b88063c90a
 }
 
 
