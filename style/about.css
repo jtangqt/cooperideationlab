@@ -1,0 +1,20 @@
+body{
+	height: 100vh;
+	width: 100%;
+	margin: 0;
+	font-family: 'Trirong', serif;
+	text-align: center;
+}
+
+
+#about_page{
+	margin: 0;
+	padding-left: 10%;
+	padding-right: 10%;
+	height: 100vh;
+	background-color: rgba(255,255,255, 0.5);
+}
+
+.about_text{
+	padding-top:10%;
+}
