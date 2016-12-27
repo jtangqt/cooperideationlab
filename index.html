@@ -1,91 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href ="navbar.css" rel = "stylesheet" type = "text/css" media = "all"/>
-<link href = "slide.css" rel = "stylesheet">
-<title>Cooper Union Ideation Lab</title>
-<link rel = "icon" href = "archcoop.png">
-<meta name = "viewport" content = "width=device-width, initial-scale=1">
-<style>
-.mySlides {display:none;}
-</style>
+	<title>Cooper Union Ideation Lab</title>
+	<link rel="stylesheet" href="style/home.css"></link>
+	<link rel = "stylesheet" href = "style/nav.css"></link> 
+	<meta charset = "UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Quattrocento|Trirong" rel="stylesheet">
+	<script src = "js/main.js"></script>
+	<link rel = "icon" href = "img/archcoop.png">
 </head>
+
+
 <body>
 
+	<div class = "background img1"></div>
+	<div class = "home">
+		<section id = "jump_home">
+			<div class = "home_title">
+				<span class = "title"><h1>Cooper Union Ideation Lab</h1></span>
+			</div>
+			<div class = "menu">
+				<div class = "option pg1">
+					<a href = "index.html" class = "page">Home</a>
+				</div>
+				<div class = "option pg2">
+					<a href = "about.html" class = "page">About the Project</a>
+				</div>
+				<div class = "option pg3">
+					<a href = "events.html" class = "page">Previous Events</a>
+				</div>
+				<div class = "option pg4">
+					<a href = "involve.html" class = "page">Get Involved</a>
+				</div>
+				<div class = "option pg5">
+					<a href = "contact.html" class = "page">Contact</a>
+				</div>
+			</div>
+			<i class="fa fa-angle-down fa-3x arrow-down" aria-hidden="true"></i>
+		</section>
+	</div>
 
+	<div class = "overview">
+		<section id = "jump_overview">
+			<div class = "overview_title">
+				<h2>Overview</h2>
+			</div>
+			<div class = "overview_info">
+				<p>Our student led group of organizers at Cooper Union is planning an Ideation Lab where students from across disciplines will work together over 3 days to design a sanitation business concept to increase access to sanitation in Myanmar. Nonprofit leaders, business leaders, academics and local practitioners are on hand in person and virtually to support the teams. After the event, participants and experts make commitments to seeing the enterprise developed, funded and launched and the Archimedes Project reviews the plan for potential support.</p>
+			</div>
+			<div class = "overview_subtitle">
+				<h3>What is a Social Enterprise</h3>
+			</div>
+			<div class = "overview_info">
+				<p>A social enterprise is a business for which a social mission and profit are inextricably linked. It makes intentional positive social or environmental impacts by providing a product or service in the open market and by using a sustainable business model.</p>
+			</div>
+		</section>
+	</div>
 
-<div id = "header">
-	<header>
-		<h1>Cooper Union Ideation Lab</h1>
-		<pre> Event Location: Cooper Union for the Advancement of Science and Art
-		Event Date: (10/8-10/10)
-		</pre>
-	</header>
-	<nav class = "main">
-		<ul>
-			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About the Event</a></li>
-			<li><a href="involve.html">How to Get Involved</a></li>
-			<li><a href="previous.html">Previous Events</a></li>
-			<li><a href="contact.html">Contact Us</a></li>
-		</ul>
-	</nav>
-</div>
+	<div class = "ideation">
+		<section id = "jump_ideation">
+			<div class = "ideation_title">
+				<h2>What is an Ideation Lab</h2>
+			</div>
+			<div class = "ideation_info">
+				<p class = "ideation_info_text">An Ideation Lab is a three‑day hackathon‑style event that brings people together from across sectors and disciplines to design a clean water or sanitation business plan for an identified country. At the core of the Ideation Lab model is the principle that our world’s largest challenge can be solved by bringing diverse minds and experiences together. To that end, participants are assembled in academically diverse teams and advised by mentors, judges, and experts representing business, nonprofit, and government experience.
+				</p>
+				<p class = "ideation_info_text">An Ideation Lab is a collaborative problem‑solving process and an exercise in design thinking that requires deep background research and support from existing organizations to understand what barriers to sustainability and scalability have been in the past. With this background, participants work in teams to design a lean business that uses existing technology, to increase sustainable access to a clean drinking water or sanitation profit or service and can scale across a chosen country.
+				</p>
+				<p class = "ideation_info_text">During the three days of learning and design, non‑profit leaders, business leaders, academics and local practitioners are on hand in‑person and virtually to support the teams. These experts advise the participants on the region, clean water, sanitation, lean startup, design thinking, human centered design, current and previous efforts to solve water and sanitation challenges and best practices in international development. Each team presents their business plan before a single business idea is chosen by the participants as the winning enterprise.</p>
+			</div>
+			<div class = "ideation_info">
+				<p></p>
+			</div>
+		</section>
+	</div>
 
+	<div class = "logistics">
+		<section id = "jump_logistics">
+			<div class = "log_info_title">
+				<h2>Logistics</h2>
+			</div>
+			<div class = "log_info">
+				<h3><span class = "italics">Event Date: </span>March 25-26<br><span class = "italics">Event Location:</span> The Cooper Union for the Advancement of Science and Art</h3>
+				<p class = "log_info_add">41 Cooper Square</p>
+			</div>
+		</section>
+	</div>
 
-<div class="slide-section slide-content" style="max-width:device-width">
-	<img class="mySlides" src="cooperunion.jpg" style="width:100%">
-	<img class="mySlides" src="bothcooper.jpg" style="width:100%">
-</div>
-
-<!--Source of images: http://www.newyorker.com/wp-content/uploads/2015/04/Mead-The-Cooper-Union-Tragedy-1200.jpg, http://www.esto.com/media/files/f1e99651e9c217a2a3c96fa0c25f0fe5.jpg?w=1280&h=840&c=0-->
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2500); // Change image every 2.5 seconds
-}
-</script>
-
-<center>
-<h1>About the Event</h1>
-<h2>Overview</h2>
-<p>
-Our student led group of organizers at Cooper Union is planning an Ideation Lab where students from across disciplines will work together over 3 days to design a sanitation business concept to increase access to sanitation in Myanmar. Nonprofit leaders, business leaders, academics and local practitioners are on hand in person and virtually to support the teams. After the event, participants and experts make commitments to seeing the enterprise developed, funded and launched and the Archimedes Project reviews the plan for potential support.
-</p>
-
-
-<h2>What is an Ideation Lab?</h2>
-<p>
-An Ideation Lab is a three&#x2011;day hackathon&#x2011;style event that brings people together from across sectors and disciplines to design a clean water or sanitation business plan for an identified country. At the core of the Ideation Lab model is the principle that our world&#x2019;s largest challenge can be solved by bringing diverse minds and experiences together. To that end, participants are assembled in academically diverse teams and advised by mentors, judges, and experts representing business, nonprofit, and government experience.
-</p>
-
-<p>
-An Ideation Lab is a collaborative problem&#x2011;solving process and an exercise in design thinking that requires deep background research and support from existing organizations to understand what barriers to sustainability and scalability have been in the past. With this background, participants work in teams to design a lean business that uses existing technology, to increase sustainable access to a clean drinking water or sanitation profit or service and can scale across a chosen country.
-</p>
-
-<p>
-During the three days of learning and design, non&#x2011;profit leaders, business leaders, academics and local practitioners are on hand in&#x2011;person and virtually to support the teams. These experts advise the participants on the region, clean water, sanitation, lean startup, design thinking, human centered design, current and previous efforts to solve water and sanitation challenges and best practices in international development. Each team presents their business plan before a single business idea is chosen by the participants as the winning enterprise.
-</p>
-</center>
-
-<footer>
-Partner Organizations: create@cooper, <!sponsors, university center/department> <br>
-<a href = "http://www.cooper.edu" target = "_blank">
-<img src="cooperlogo.png" title="Go to the Cooper Website" style="width:82px;height:103px;">
-</a>
-<img src="archcoop.png" title="Cooper + Archimedes Project" style="width:103px;height:103px;">
-</footer>
+	
 
 </body>
 </html>
