@@ -40,3 +40,8 @@ ul{
 .img1{
 	background-image: url('../img/background.jpg');
 }
+
+nav a:link, nav a:visited{
+	text-decoration: none;
+	color: #000;
+}
