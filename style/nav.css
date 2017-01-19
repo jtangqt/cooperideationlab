@@ -26,6 +26,11 @@ ul{
 	margin: 0;
 }
 
+nav a:link, nav a:visited{
+	text-decoration: none;
+	color: #000;
+}
+
 .background{
 	position: fixed;
 	height:100vh;
