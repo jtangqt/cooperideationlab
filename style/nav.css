@@ -29,9 +29,14 @@ ul{
 
 .page_on{
 	display: inline;
-	color: orange;
+/*	color: orange;
 	cursor: auto;
+*/
+}
 
+nav a:link, nav a:visited{
+	text-decoration: none;
+	color: #000;
 }
 
 .background{
@@ -61,9 +66,9 @@ nav a:link, nav a:visited {
 
 .page_other{
 	display:inline-block;
-	margin: 3px;
+/*	margin: 3px;*/
 }
-
+/*
 .page_other:hover{
 	background-color: pink;
-}
+}*/
