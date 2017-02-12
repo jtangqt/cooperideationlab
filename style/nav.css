@@ -24,6 +24,14 @@ nav{
 ul{
 	display: inline;
 	margin: 0;
+	cursor: pointer;
+}
+
+.page_on{
+	display: inline;
+	color: orange;
+	cursor: auto;
+
 }
 
 .background{
@@ -39,4 +47,23 @@ ul{
 
 .img1{
 	background-image: url('../img/background.jpg');
+}
+
+nav a:link, nav a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+.site_name a:link, .site_name a:visited{
+	text-decoration: none;
+	color: #000;
+}
+
+.page_other{
+	display:inline-block;
+	margin: 3px;
+}
+
+.page_other:hover{
+	background-color: pink;
 }
