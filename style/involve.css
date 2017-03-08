@@ -18,3 +18,49 @@ body{
 .involve_text{
 	padding-top:10%;
 }
+
+.part_options{
+	width: 100%;
+	padding: 0 ;
+}
+
+.parts{
+	width: 50%;
+	display: inline-block;
+}
+
+.click{
+	width: 20%;
+	height: 80px;
+	border: 2px solid white;
+	bottom: 10%;
+	background-color: rgba(0,0,0, .6);
+	text-align: center;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.left{
+	text-align: left;
+}
+
+.right{
+	text-align: right;
+}
+
+.description{
+	display: inline-block;
+
+}
+
+.choice{
+	text-decoration: none;
+	color: white;
+	font-size: 24px;
+	line-height: 76px;
+}
+
+table {
+	width: 100%;
+}
+
